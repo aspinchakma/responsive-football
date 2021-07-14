@@ -12,7 +12,6 @@ body{
     width:1060px;
     margin-left:147px;
     margin-top:58px;
-    border:1px solid black;
 }
 .section-title{
         font-size: 36px;
@@ -22,57 +21,6 @@ body{
 header{
     background-color:#2D25A0;
 }
-/* .header-container{
-    padding-top:162px;
-    border:1px solid black;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-   grid-column-gap: 102px;
-    margin-left: 102px;
-    justify-content: center;
-    padding-bottom: 96px;
-   
-}
-.header-title{
-    font-size: 45px;
-    font-weight:700;
-    width: 485px;
-    height: 230px;
-    color:white;
-    border:1px solid yellow;
-    padding:2px;
-
-}
-.header-button{
-    display:flex;
-    align-items: center;
-    width: 168px;
-    height: 44px;
-    padding:10px 20px;
-    margin-top:55px;
-    background-color: #E02C6D;;
-}
-.header-button{
-    text-decoration:none;
-}
-.header-button h3{
-    font-size: 16px;
-    margin-right:29px;
-    color:white;
-}
-.header-button i{
-    color:white;
-    width: 24px;
-    height: 24px;
-}
-.header-image img{
-    width: 556.01px;
-    height: 438px;
-    border:1px solid black;
-}
-.title-button{
-    border:1px solid red;
-} */
 header {
     border: 1px solid black;
     height: 697px;
@@ -82,7 +30,6 @@ header {
 
 .header-container {
     display: flex;
-    border: 1px solid red;
     width: 1140px;
     margin-left: 90px;
     margin-top: 161px;
@@ -90,14 +37,12 @@ header {
 }
 
 .title-button {
-    border: 1px solid red;
     margin-right: 102px;
 }
 
 .banner img {
     width: 556.01px;
     height: 438px;
-    border: 1px solid red;
 }
 
 .header-title {
@@ -108,7 +53,6 @@ header {
 }
 
 .button {
-    border: 1px solid red;
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
@@ -150,7 +94,6 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 27px;
-    border:1px solid black;
 }
 .player{
     padding-top:15px;
@@ -164,7 +107,6 @@ main{
 .player-image img{
     width: 300px;
     height: 256px;
-    border:1px solid red;
 }
 /* team section start  */
 
@@ -183,7 +125,6 @@ main{
 }
 /* media section start  */
 .media{
-    border:1px solid green;
     display:flex;
     
 }
@@ -198,14 +139,9 @@ main{
     margin-left:16px;
 }
 /* footer start  */
-footer{
-    border:1px solid black;
-   
-}
 .footer-container{
     width: 483.87px;
     height: 213px;
-    border:1px solid red;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -214,9 +150,6 @@ footer{
 .logo img{
     width: 483.87px;
     height: 110px;
-}
-.social{
-    border:1px solid red;
 }
 .social i{
     color:#969BAB;
@@ -257,15 +190,11 @@ footer{
         width: 91%;
         height: 100%;
     }
-    
-    
-}
-    /* added --------------------------------------- */
-
     .container{
         width:100%;
         margin-left: 0px;
-    }
+     }
+    
     .footer-container{
         margin-top:30px;
         margin-left: 0px;
@@ -273,8 +202,8 @@ footer{
         margin-bottom:200px;
         width: 100%;
     }
-    
-    .players, .teams{
+     
+     .players, .teams{
         grid-template-columns: 1fr;
         margin-left:0px;
         width:80%;
@@ -296,4 +225,10 @@ footer{
         margin-top:30px;
         margin-left:30px;
     }
+    
+    
+}
 
+
+     
+ 
